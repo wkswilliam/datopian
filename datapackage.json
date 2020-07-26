@@ -1,0 +1,105 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "author": "William Kramer Scariot",
+            "description": "Annual prices of natural gas in the US since 1997.",
+            "keywords": "Gas Price, US, Historical prices of gas",
+            "name": "Annual Prices of US Natural Gas",
+            "path": "data/gas_price_us_a.csv",
+            "profile": "Tabular Data Package",
+            "schema": {
+                "fields": [
+                    {
+                        "format": "default",
+                        "name": "Date",
+                        "title": "Date",
+                        "type": "text"
+                    },
+                    {
+                        "format": "default",
+                        "name": "Price",
+                        "title": "Price",
+                        "type": "integer"
+                    }
+                ]
+            },
+            "title": "Annual US Natural Gas Price"
+        },
+        {
+            "author": "William Kramer Scariot",
+            "description": "Daily prices of natural gas in the US since 1997.",
+            "keywords": "Gas Price, US, Historical prices of gas",
+            "name": "Daily Prices of US Natural Gas",
+            "path": "data/gas_price_us_d.csv",
+            "profile": "Tabular Data Package",
+            "schema": {
+                "fields": [
+                    {
+                        "format": "default",
+                        "name": "Date",
+                        "title": "Date",
+                        "type": "text"
+                    },
+                    {
+                        "format": "default",
+                        "name": "Price",
+                        "title": "Price",
+                        "type": "integer"
+                    }
+                ]
+            },
+            "title": "Daily US Natural Gas Price"
+        },
+        {
+            "author": "William Kramer Scariot",
+            "description": "Weekly prices of natural gas in the US since 1997.",
+            "keywords": "Gas Price, US, Historical prices of gas",
+            "name": "Weekly Prices of US Natural Gas",
+            "path": "data/gas_price_us_w.csv",
+            "profile": "Tabular Data Package",
+            "schema": {
+                "fields": [
+                    {
+                        "format": "default",
+                        "name": "Date",
+                        "title": "Date",
+                        "type": "text"
+                    },
+                    {
+                        "format": "default",
+                        "name": "Price",
+                        "title": "Price",
+                        "type": "integer"
+                    }
+                ]
+            },
+            "title": "Weekly US Natural Gas Price"
+        },
+        {
+            "author": "William Kramer Scariot",
+            "description": "Monthly prices of natural gas in the US since 1997.",
+            "keywords": "Gas Price, US, Historical prices of gas",
+            "name": "Monthly Prices of US Natural Gas",
+            "path": "data/gas_price_us_m.csv",
+            "profile": "Tabular Data Package",
+            "schema": {
+                "fields": [
+                    {
+                        "format": "default",
+                        "name": "Date",
+                        "title": "Date",
+                        "type": "text"
+                    },
+                    {
+                        "format": "default",
+                        "name": "Price",
+                        "title": "Price",
+                        "type": "integer"
+                    }
+                ]
+            },
+            "title": "Monthly US Natural Gas Price"
+        }
+    ]
+}
